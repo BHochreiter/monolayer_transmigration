@@ -1,7 +1,10 @@
 # monolayer_transmigration
 
 Developed by Bernhard Hochreiter 2022
+
 Published under GNU GPL 3.0
+
+This is a macro for ImageJ/Fiji
 
 When measured in phase contract, roundish cells that migrate through, or sit either below or on top of a homogenous monolayer of cells, look distinctively different due to their stronger contrast. They feature a bright ring surrounding a dark spot, which appear different depending on where they are locate in relation to the focused layer. The developed macro detects these features first by intensity thresholding, and then categorizes their position in relation to the monolayer by the ratio of dark and bright pixels within the detected features.
 
